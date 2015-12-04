@@ -21,7 +21,7 @@ public @interface Entity {
 	    
 	
 	/**
-	 * Split format as follow:
+	 * Split format as follow: 
 	 * Mod:splitField:tableCount
 	 * Date:splitField:(y:m)
 	 * @return split define
