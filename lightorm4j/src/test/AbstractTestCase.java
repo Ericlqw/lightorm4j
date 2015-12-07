@@ -35,7 +35,7 @@ import cn.pconline.r.route.PcRouteJNDI;
 public abstract class AbstractTestCase{
     static {
         try {
-            SimpleNamingContextBuilder builder = SimpleNamingContextBuilder.emptyActivatedContextBuilder();
+         /*   SimpleNamingContextBuilder builder = SimpleNamingContextBuilder.emptyActivatedContextBuilder();
             //java:comp/env/props  应用环境配置 E:\workspace\best_smartpush\conf
             builder.bind("java:comp/env/props","E:\\workspace\\best_smartpush\\conf\\best_smartpush_envirement.properties");
             //java:comp/env/app-name
@@ -46,7 +46,7 @@ public abstract class AbstractTestCase{
             builder.bind("java:comp/env/app-name-override", "best_smartpush");
 
             //java:comp/env/memCachedClientConfig4RClient
-         /*   StringBuffer sb = new StringBuffer();
+            StringBuffer sb = new StringBuffer();
             sb.append("servers=192.168.20.118:11211\n");
             sb.append("initConn=20\n");
             sb.append("minConn=10\n");
@@ -54,7 +54,7 @@ public abstract class AbstractTestCase{
             sb.append("maintSleep=30\n");
             sb.append("nagle=false\n");
             sb.append("socketTO=3000\n");
-            builder.bind("java:comp/env/memCachedClientConfig4RClient", sb.toString());*/
+            builder.bind("java:comp/env/memCachedClientConfig4RClient", sb.toString());
             
             //java:comp/env/internalInetnums
             builder.bind("java:comp/env/internalInetnums", "192.168.236.0/22,192.168.230.0/24");
@@ -89,7 +89,7 @@ public abstract class AbstractTestCase{
 
             builder.activate();
             //This is default test output directory, if changed in pom.xml please modify this bingding too.
-        } catch (NamingException ex) {
+        */} catch (NamingException ex) {
             ex.printStackTrace();
         }
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ä¬ÈÏÂ·¾¶ /WEB-INF/applicationContext.xml -->
+
+   <bean id="geliOrm" class="org.gelivable.dao.GeliOrm">
+        <property name="entityPackageList">
+            <list>
+                <value>cn.pconline.best.smartpush.entity</value>
+                <value>org.gelivable.auth.entity</value>
+                <value>org.gelivable.log.entity</value>
+            </list>
+        </property>
+    </bean>
