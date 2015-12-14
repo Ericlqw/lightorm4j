@@ -25,7 +25,9 @@ public class LightOrm {
 	
 	    private final Map<Class, String> tableNameMap = new HashMap<Class, String>();
 	    private final Map<Class, Table> tableMap = new HashMap<Class, Table>();
+	    private final Map<Class, String> getterMap = new HashMap<Class, String>();
 
+	    private final Map<Class, String> setterMap = new HashMap<Class, String>();
 
 	 public void setEntityPackageList(List<String> entityPackageList) {
 	        for (String entityPackage : entityPackageList) {
@@ -41,9 +43,7 @@ public class LightOrm {
 	            public boolean match(MetadataReader metadataReader, 
 	                    MetadataReaderFactory metadataReaderFactory) throws IOException {
 	                return true;
-	            }
-
-				
+	            }				
 	        });
 
 	        List<Class> list = new ArrayList<Class>();

@@ -30,7 +30,7 @@ import cn.pconline.r.route.PcRouteJNDI;
 @RunWith(SpringJUnit4ClassRunner.class)
 //@ContextConfiguration(locations = {"classpath:applicationContext.xml"})
 //spring配置文件 applicationContext.xml  E:\workspace\best_smartpush\src\main\webapp\WEB-INF
-@ContextConfiguration(locations = {"file:E:\\workspace\\best_smartpush\\src\\main\\webapp\\WEB-INF\\applicationContext.xml"})
+@ContextConfiguration(locations = {"file:D:\\myspace\\gitpro\\github\\lightorm4j\\src\\main\\webapp\\WEB-INF\\applicationContext.xml"})
 @TestExecutionListeners({DependencyInjectionTestExecutionListener.class})
 public abstract class AbstractTestCase{
     static {

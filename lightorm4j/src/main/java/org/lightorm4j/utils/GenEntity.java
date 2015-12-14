@@ -19,7 +19,6 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
 
-
 /** 
 * @author qiaowei liu
 * @date 2015年12月11日 下午4:10:54 
