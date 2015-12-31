@@ -18,7 +18,7 @@ import java.util.Date;
 @Label("${tableComment}")
 pulic class ${className} {
     <#list attrs as entity>     
-     <#if (entity.primaryKey=="PRI")>
+     <#if (entity.primaryKey==entity.field)>
     @Id
     </#if>
      <#if (entity.nullable=="NO")>

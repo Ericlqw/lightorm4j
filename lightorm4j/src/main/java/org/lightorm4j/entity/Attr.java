@@ -6,7 +6,6 @@ package org.lightorm4j.entity;
  * @date 2015-12-10
  * @version 1.0
  */
-
 	public class Attr{
 	    private String field;
 	    private String type;
